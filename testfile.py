@@ -58,4 +58,10 @@ tk.Button(root, text="Match", command=match_wildcard).pack(pady=5)
 output_text = scrolledtext.ScrolledText(root, width=60, height=15)
 output_text.pack(pady=10)
 
+
+https://www.tcl-lang.org/man/tcl8.6/TkCmd/grid.htm#M19
+https://www.tcl-lang.org/man/tcl8.6/TkCmd/listbox.htm
+https://tkdocs.com/tutorial/morewidgets.html#listbox
+
+
 root.mainloop()
